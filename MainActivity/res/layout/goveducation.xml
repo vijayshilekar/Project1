@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+     <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+     <TextView
+              android:id="@+id/textView2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#c0c0c0"
+              android:gravity="center"
+              android:text="Engineering and Polytechnic Colleges"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#ff0000" />
+     </RelativeLayout>
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+
+               <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="SGGS College Of Engg"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Vishnupuri Nanded-431606
+              Courses Offered: IT,CSC,MECH,ETC,CIVIL
+              Phone NO:02462-269161"
+              
+              />
+           <Button
+			   	android:id="@+id/call"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+          
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+             
+              android:layout_marginTop="5dp"
+              android:text="Gov Polytechnic College"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Babanagar Nanded-431602
+              Courses Offered: IT,CSC,MECH,CIVIL,ETC "
+             
+              
+              />
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+             
+              android:layout_marginTop="5dp"
+              android:text="Government ITI College"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Baba Nagar, Nanded- 431602
+              Phone NO: 02462-251623"
+              />
+           <Button
+			   	android:id="@+id/call1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+          
+      <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+       
+        android:text="Dr.Shankarrao Chavan Medical College"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address: Municipal Corporation to Mahatma Gandhi Rd, Khadakpura, Nanded, MH 431601" />
+    
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+       
+        android:text="Govt. Ayurvedic College"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Khadakpura, Nanded-431601
+        Phone NO: 02462 234 026" />
+    
+           <Button
+			   	android:id="@+id/call2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+          
+          
+          
+       </LinearLayout>
+ </ScrollView>
+         
+    
+
+</LinearLayout>

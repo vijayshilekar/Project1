@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+    
+    <TextView
+              android:id="@+id/textView2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#c0c0c0"
+              android:gravity="center"
+              android:text="SAHASTRA KUND"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#ff0000" />
+    </RelativeLayout>
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+    
+     
+              
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+         android:layout_marginTop="10dp"
+       
+        android:src="@drawable/s1" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:background="#C0C0C0"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:text="About Sahastra Kund"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:layout_marginTop="10dp"
+         
+       
+        android:text="This waterfall on the Banganga River is an unbelievable site. It flows round the year, as river Banganga makes from four to five places only to meet the Holy Godavari River. The Rock Pattern is equally interesting, as the black rock appears like a metal and as if wet. In reality the wetness is due to the shine it adores. The southwest part is picturesque site." />
+  </LinearLayout>
+ </ScrollView>
+     
+</LinearLayout>

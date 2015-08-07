@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+   <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="60dp"
+          android:orientation="vertical">
+
+           <Button
+               android:id="@+id/button1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+                android:background="@drawable/butback"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+       
+               android:text="CAFES" />
+
+            <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hom" />
+           
+         
+    </RelativeLayout>
+    
+        <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+               
+                 <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+       
+        android:text="Cold Coffee Day"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address: Hyder Bagh,Dashmesh Nagar,Nanded, MH 431601" />
+    
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Rabdi Tea Shop"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Bhagay Nagar Rd, Vishnu Nagar Nanded-431605" />
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="YMN Canteen"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Yeshwant College Rd,Baba Nagar Nanded-431602" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Varsha Tea House"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address: Vishnu Nagar Nanded" />
+   <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Shri Krishna Ice Cream Point"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address: Goverdhan Ghat Road, Vazirabad Nanded-431601" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Kendre Tea House"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address: Shivaji Nagar Main Rd Kohinor City, Shri Nagar Nanded-431605" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Cafe Shop"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address: Nashnal Highway 204, Kamtha Village Nanded" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Mauli Uphar Gruh and Anil Bhojnalay"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address: Nanded-Waghala,431603" />
+ 
+    
+          
+          
+       </LinearLayout>
+ </ScrollView>
+         
+    
+    
+   
+</LinearLayout>

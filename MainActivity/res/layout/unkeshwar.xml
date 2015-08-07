@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+      <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+   <TextView
+              android:id="@+id/textView2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#c0c0c0"
+              android:gravity="center"
+              android:text="UNKESHWAR"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#ff0000" />
+    </RelativeLayout>
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+    
+              
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+         android:layout_marginTop="10dp"
+       
+        android:src="@drawable/unkeshwar" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:background="#C0C0C0"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:text="About Unkeshwar"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:layout_marginTop="10dp"
+        
+        android:text=" Unkeshwar is famous for the temple dedicated to God Siva and the hot springs located close by the temple. These springs are said to possess medicinal value and cure skin diseases. The temparature of water in one tank stands at 42.20 C and is found to contain sulphur in water springs. The excess water flows out from the Gomukh. Many bubbles are seen in the tank which indicates sulphur contents as per the experts.  
+ " />
+  </LinearLayout>
+ </ScrollView>
+     
+</LinearLayout>

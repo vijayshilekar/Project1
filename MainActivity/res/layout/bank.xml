@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+      >
+
+ <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="60dp"
+     android:orientation="vertical" >
+
+<Button
+    android:id="@+id/button1"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentBottom="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/butback"
+    android:text=" BANKS"
+    android:textColor="#ff0000"
+    android:textSize="20dp" />
+
+           <ImageButton
+               android:id="@+id/imageButton2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentTop="true"
+               android:src="@drawable/hom" />
+           
+    </RelativeLayout>
+
+ 
+     <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+
+              
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Andhra Bank"
+              
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:PATIL PLAZA, ITI CIRCLE, VIP ROAD
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Axis Bank"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:NIKHIL HEIGHTS VAZIRABAD - BUS STAND ROAD
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Bank Of Baroda"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:OPP. BHORE COMPLEX,MAHAVIR CHOWK
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+       <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Bank Of India"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:OPP. GOVT. MULTIPURPOSE HIGHSCHOOL, VAZIRABAD, 
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+ <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Bank Of India"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:AGGARWAL HOUSE,NAYA MONDA, NANDED 
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+ <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Bank Of Maharashtra"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:SARAFA HOLI, NANDED
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+ <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Bank Of Maharashtra"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:PEOPLES COLLAGE CAMPUS, NANDED
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+          
+ <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Canara Bank"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:P.B.NO.61, TARASINGH MARKET, NANDED 431601
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Central Bank Of India"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:VAZIRABAD ROAD, NANDED
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Citibank"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:CITIBANK N.A., GUT NO-120, MALEGAON ROAD, TARODA 
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+          
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Corporation Bank"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:NO 1-17-1427, VISHWA NAGAR, V I P ROAD
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="State Bank Of Hyderabad (SBH)"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:CO - OP INDUSTRIAL ESTATE, SHIVAJINAGAR, NANDED 431603 MAHARASTRA
+             City: Nanded 
+             State: Maharashtra"
+
+               
+              />
+          
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="State Bank Of Hyderabad (SBH)"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:VAZIRABAD, NANDED
+             City: Nanded 
+             Branch: NANDED
+             Branch Code: 020050"
+
+               
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="State Bank Of Hyderabad (SBH)"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:AGL.DEV.BR., FIRST FLOOR, TARASINGH MARKET, NANDED
+
+             City: Nanded 
+             Branch: NANDED
+             Branch Code: 020254"
+
+               
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="State Bank Of Hyderabad (SBH)"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:1 - 6 - 556/2, SRINAGAR COLONY, NANDED
+
+             City: Nanded 
+             Branch: NANDED
+             Branch Code: 020452"
+
+               
+              />
+          
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="State Bank Of Hyderabad (SBH)"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:DASMESH HOSPITAL COMPOUND, GURUDWARA GATE NO 2 NANDED
+             City: Nanded 
+             Branch: NANDED
+             Branch Code: 021097"
+
+               
+              />
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="State Bank Of Hyderabad (SBH)"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:SRTMU AREA VISHNUPURI DIST NANDED 431606
+
+             City: Nanded 
+             Branch: SRTM UNIVERSITYAREA NANDED
+             Branch Code: 021188"
+
+               
+              />
+
+              
+  <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="State Bank Of Hyderabad (SBH)"
+             
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:CHAWALWALA COMPLEX DEGLOOR NAKA 431604
+             City: Nanded 
+             Branch: DEGLOORNAKA NANDED
+             Branch Code:  021185"
+
+               
+              />
+
+              
+          
+    
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>  
+

@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@string/prev"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+   >
+     <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="60dp"
+          android:orientation="vertical">
+
+           <Button
+               android:id="@+id/button10"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+                android:background="@drawable/butback"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+       
+               android:text="TOURISM PLACES" />
+
+            <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hom" />
+           
+         
+    </RelativeLayout>
+    
+     <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+
+          
+
+          <Button
+              android:id="@+id/button1"
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/textView1"
+              android:drawableLeft="@drawable/g2"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:background="#008080"
+               android:layout_weight="0.36"
+              android:text="SHRI SACHKHAND GURUDWARA"
+              android:textColor="#ffffff" />
+
+          <Button
+              android:id="@+id/button2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/button1"
+              android:layout_weight="0.36"
+              android:background="#008080"
+              android:drawableLeft="@drawable/k2"
+              android:gravity="center"
+                  android:layout_marginTop="5dp"
+              android:text="KALESHWAR TEMPLE"
+              android:textColor="#ffffff" />
+
+          <Button
+              android:id="@+id/button3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/button1"
+              android:layout_weight="0.42"
+              android:drawableLeft="@drawable/m"
+              android:gravity="center"
+              android:background="#008080"
+              android:layout_marginTop="5dp"
+             
+              android:text="MAHURGHAT"
+              android:textColor="#ffffff" />
+          <Button
+              android:id="@+id/button4"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/button1"
+              android:layout_weight="0.42"
+              android:drawableLeft="@drawable/dam"
+              android:gravity="center"
+              android:background="#008080"
+             android:layout_marginTop="5dp"
+              
+              android:text="VISHNUPURI DAM"
+              android:textColor="#ffffff" />
+            <Button
+              android:id="@+id/button5"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/button1"
+              android:layout_weight="0.42"
+              android:drawableLeft="@drawable/s"
+              android:gravity="center"
+              android:background="#008080"
+             android:layout_marginTop="5dp"
+              
+              android:text="SAHASTRA KUND"
+              android:textColor="#ffffff" />
+       <Button
+              android:id="@+id/button6"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/button1"
+              android:layout_weight="0.42"
+              android:drawableLeft="@drawable/ya"
+              android:gravity="center"
+              android:background="#008080"
+             android:layout_marginTop="5dp"
+              
+              android:text="MALEGAON YATRA"
+              android:textColor="#ffffff" />
+      <Button
+              android:id="@+id/button7"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/button1"
+              android:layout_weight="0.42"
+              android:drawableLeft="@drawable/b"
+              android:gravity="center"
+              android:background="#008080"
+             android:layout_marginTop="5dp"
+              
+              android:text="MASJID OF BILOLI"
+              android:textColor="#ffffff" />
+       <Button
+              android:id="@+id/button8"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/button1"
+              android:layout_weight="0.42"
+              android:drawableLeft="@drawable/uneshwar"
+              android:gravity="center"
+              android:background="#008080"
+             android:layout_marginTop="5dp"
+              
+              android:text="UNKESHWAR"
+              android:textColor="#ffffff" />
+      <Button
+              android:id="@+id/button9"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_alignParentLeft="true"
+              android:layout_below="@+id/button1"
+              android:layout_weight="0.42"
+              android:drawableLeft="@drawable/hottal1"
+              android:gravity="center"
+              android:background="#008080"
+             android:layout_marginTop="5dp"
+              
+              android:text="HOTTAL"
+              android:textColor="#ffffff" />
+     
+       
+      </LinearLayout>
+
+    </ScrollView>
+    
+    </LinearLayout>
+     
+   

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+      <TextView
+              android:id="@+id/textView2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#c0c0c0"
+              android:gravity="center"
+              android:text="MASJID OF BILOLI"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#ff0000" />
+              
+        </RelativeLayout>
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+    
+     
+              
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+         android:layout_marginTop="10dp"
+       
+        android:src="@drawable/b1" />
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:background="#C0C0C0"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:text="About Masjid of Biloli"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.72"
+        android:layout_marginTop="10dp"
+         
+       
+        android:text=" The Masjid known as the Hazrat Nawab Sarfaraz Khan Sahid Masjid is said to have been constructed about 330 years back. Sarfaraz Khan was an officer in the army of Aurangzeb. The Masjid is constructed in stone. There are four minarets on the southern side which collapsed when it was hit by a lightening in 1960. The one on the north has eight chains. Below the chains is a figure in the shape of a bell. To the north-west corner of the masjid is a barrow (a well square in shape). The Masjid is situated in Biloli Town." />
+  </LinearLayout>
+ </ScrollView>
+     
+</LinearLayout>

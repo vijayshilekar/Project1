@@ -1,0 +1,294 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+    
+     <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="60dp"
+          android:orientation="vertical">
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/butback"
+        android:textSize="25dp"
+        android:textColor="#ff0000"
+        android:text="@string/rest" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hom" />
+</RelativeLayout>
+ <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+
+                    
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Hotel Ramakrishna International"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Railway Station Road, 
+              Location : Hotel Ramakrishna International Nanded is located at a walking distance from the railway station and 3 kms from the airport."
+               
+              />
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotel Anuradha Palace"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:Railway Station Road, Nanded
+              Location : Hotel Anuradha Palace is located on the Station Road and the Nanded railway station is just 5 kms away." 
+               
+              />
+ <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotel Chandralok - Restaurant"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:Airport Road, Nanded
+              Location: Hotel Chandralok is located just a few minutes drive from the Nanded Fort. The hotel is 120 km away from the Mumbai airport."             
+              />
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotelwale Sushmakaur Khadaksin - Restaurant"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Nanded Town, Nanded
+              Category: Non-Veg, Punjabi"
+              
+              />
+ <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotel Raj - Restaurant"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Workshop Road, Nanded
+              Category: Non-Veg, South Indian"
+              
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Godavari Restaurant and Bar"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Shivajinagar, Nanded
+              Category: Non-Veg, Tandoori"
+              
+              />
+          
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotel Taj Patil - Restaurant"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:ITI Corner, Nanded
+              Category: 24 Hours, Bar/Pub, Restaurant"
+              
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotel City Pride - Restaurant"
+
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:Gandhi Nagar, Nanded
+              Category: 24 Hours, Bar/Pub, Restaurant"
+              
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotel Guru Inn"
+
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:Station Road, Nanded
+              Category: 24 Hours, Bar/Pub, Restaurant"
+              
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotel Ashiana Park"
+
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:Doctors Lane, Nanded
+              Category: 24 Hours, Bar/Pub, Restaurant"
+              
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotel Class Amruta exicutive"
+
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:Amrut Hights, Kalamandir Road, Opp: Bus Station, Nanded
+              Category: 24 Hours, Bar/Pub, Restaurant"
+              
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Hotel Nirmala palace"
+
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address:Opp. Kalamandir Nanded
+              Category: 24 Hours, Bar/Pub, Restaurant"
+              
+              />
+          
+          
+          
+     </LinearLayout>
+     </ScrollView>
+</LinearLayout>

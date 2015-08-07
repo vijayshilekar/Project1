@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical" >
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+    
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#c0c0c0"
+        android:gravity="center"
+        android:text="Medical Institutes in Nanded"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#ff0000" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Dr.Shankarrao Chavan Medical College"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:gravity="left"
+        android:text="Address: Municipal Corporation to Mahatma 
+        Gandhi Rd, Khadakpura, Nanded, MH 431601" />
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Govt. Ayurvedic College"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        
+        android:gravity="left"
+        android:text="Address:Khadakpura, Nanded-431601
+        Phone NO: 02462 234 026" />
+    <Button
+			   	android:id="@+id/call"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+     </LinearLayout>
+ </ScrollView>
+          
+
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+ >
+     <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+     <TextView
+              android:id="@+id/textView2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#c0c0c0"
+              android:gravity="center"
+              android:text="VISHNUPURI DAM"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#ff0000" />
+    </RelativeLayout>
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+    
+              
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+         android:layout_marginTop="10dp"
+       
+        android:src="@drawable/dam1" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.14"
+        android:background="#C0C0C0"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#ff0000"
+        android:text="About Vishnupuri Dam"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_weight="0.72"
+        android:text=" Constructed on the river Godavari, this is one of the largest lift irrigation projects in Asia. The project is situated near Asarjan village, at about 8 k.m. from Nanded city. The project was completed in the year 1988. The back water covers 40 k.m. length of the river Godavari. Culturable Command Area of project is 23222 Hec. and Irrigable Command Area is 19514 Hec. Up till now irrigation Potential of 15856 Hec. is created." />
+
+  </LinearLayout>
+ </ScrollView>
+     
+</LinearLayout>

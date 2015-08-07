@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+     <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="30dp"
+          android:orientation="vertical">
+    <TextView
+              android:id="@+id/textView2"
+              android:layout_width="320dp"
+              android:layout_height="wrap_content"
+              android:background="#c0c0c0"
+              android:gravity="center"
+              android:text="TRAVELS"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#ff0000" />
+     </RelativeLayout>
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+
+              
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Prasanna Travels"
+              
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text=" Address: Opp. Kalamandir, Paras Complex,Nanded Tel. 02462 247120 , 235120"
+              
+              />
+          
+          <Button
+			   	android:id="@+id/call"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+          
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              
+              android:layout_marginTop="5dp"
+              android:text="Shree Khurana Travels"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+             
+              android:text="Address:Near Hotel Anuradha Palace,Hingoli Gate, Phone No : 91 2462-242136  Mobile : 91 9822224699 ,9850384688 "
+             
+              
+              />
+          
+          <Button
+			   	android:id="@+id/call1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+          
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              
+              android:layout_marginTop="5dp"
+              android:text=" Navkaar Travels"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:text="Address:Plot no 61 C,Jyoti talkies road,Shivaji Nagar Nai Abaadi, Vishnu Nagar, Nanded. 02462 240 792"
+              />
+          
+          <Button
+			   	android:id="@+id/call2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+          
+      <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Sharma Travels"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text=" Address: Head Office Near New Bridge, Old Mondha, Nanded  431 604. Tel No. 91 2462 237530" />
+    
+    
+          <Button
+			   	android:id="@+id/call3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+    
+          
+          
+       </LinearLayout>
+ </ScrollView>
+         
+    
+
+</LinearLayout>

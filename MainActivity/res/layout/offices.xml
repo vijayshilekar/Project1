@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+ <RelativeLayout
+     android:layout_width="fill_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical" >
+
+      <TextView
+              android:id="@+id/textView2"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#c0c0c0"
+              android:gravity="center"
+              android:text="Gov Officess"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#ff0000" />
+      </RelativeLayout>
+    
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+
+              
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              
+              android:layout_marginTop="10dp"
+              android:text="District Collector Office"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+                       
+              android:text="Address: Municipal Corporation to Mahatma Gandhi Rd,Nanded, MH 431601
+              Phone NO:02462 235077"
+               />
+          
+          
+           <Button
+			   	android:id="@+id/call"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              
+              android:layout_marginTop="5dp"
+              android:text="NWCMC(mahanagarpalika) Nanded"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              
+              android:text="Address: Vazirabad Nanded, MH 431601"
+               />
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              
+              android:layout_marginTop="5dp"
+              android:text="Zilla Parishad Nanded"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              
+              android:text="Address:Railways Station road, Zilla Parishad, Nanded"
+               />
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              
+              android:layout_marginTop="5dp"
+              android:text="ACE Infotech"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+          
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Shiradhon 431707 Nanded
+              Courcess Offerd: Maha E Seva Kendra MS-CIT, Tally 9.0 erp, D T P Internet Typing
+              Phone No: 9922031231"
+              
+              
+              />
+           <Button
+			   	android:id="@+id/call1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+          <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              
+              android:layout_marginTop="5dp"
+              android:text="Jai Hind Boilers Nanded"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Nanded Hyderabd Road Dhanegaon Nanded
+              Phone No: 9764029619"
+              
+              
+              />
+          <Button
+			   	android:id="@+id/call2"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              
+              android:layout_marginTop="5dp"
+              android:text="Office Place In Rental"
+
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Address: Chikhalwadi Corner, Nanded
+              Phone No:  9403683156"
+              
+              
+              />
+
+            <Button
+			   	android:id="@+id/call3"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+          
+          
+          
+     </LinearLayout>
+ </ScrollView>
+          
+          
+
+</LinearLayout>

@@ -1,0 +1,521 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+
+   <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="60dp"
+          android:orientation="vertical">
+
+           <Button
+               android:id="@+id/button1"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+                android:background="@drawable/butback"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+       
+               android:text="Hospitals" />
+
+            <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hom" />
+           
+         
+    </RelativeLayout>
+    
+        <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+               
+                 <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="SGGS Memorial Hospital and Dr.Shankarrao Chavan Medical College"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address: Municipal Corporation to Mahatma Gandhi Rd, Khadakpura, Nanded, MH 431601" />
+    
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Govt. Ayurvedic College"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Khadakpura, Nanded-431601
+        Phone NO: 02462 234 026" />
+       <Button
+			   	android:id="@+id/call"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+        
+     <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:background="#ffb6c1"
+        
+        android:text="Global Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:VIP Road, Nanded-431602
+        Phone NO: 02462 252551/52/53" />
+    
+      <Button
+			   	android:id="@+id/call1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="65dp"
+			    android:layout_alignBaseline="@+id/button3"
+			    android:layout_alignBottom="@+id/button3"
+			    android:layout_centerHorizontal="true"
+			    android:drawableLeft="@drawable/callimg1"
+			    android:text=" Call Now"
+			    android:textColor="#ff0000"
+			    android:background="#ffffff"
+			    android:layout_marginLeft="10dp"
+			    
+		     />
+    
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Shri Ashwini Child Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Nanded GPO,Nanded
+        Speciality: Paediatrics" />
+   <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Toshniwal Chest Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Nanded GPO,Nanded
+        Speciality: Asthama, Alergy, Gynaecology, Chest Diseases" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Sai Orthopaedic Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Vazirabad,Nanded
+        Speciality: Orthopaedic" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Nandigram Child Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Nanded GPO,Nanded
+        Speciality: Paediatrics" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Pooja Womens Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Nanded GPO,Nanded
+        Speciality: Gynaecology" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Gandhewar Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Somesh Colony,Nanded
+        Speciality: Cardiology, General Physycian" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Marthawada Childrens Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Nanded GPO,Nanded
+        Speciality: Pediatrics" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Mathsree Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Nanded Town,Nanded
+        Speciality:Gynaecology, Paediatrics, Cardiology" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Wadekar Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Station Road,Nanded
+        Speciality:Paediatrics, Gynaecology" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Vinayak Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Shivajinagar,Nanded
+        Speciality:Neurology" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Ashwini Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Shivajinagar,Nanded
+        Speciality:Cardiology" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Samvedan Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Shivajinagar,Nanded
+        Speciality:Ear, Nose, Throat" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Tulsi Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Shivajinagar,Nanded
+        Speciality:Laproscopic Surgergery" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Rayat Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Kalamandir,Nanded
+        Speciality:Gynaecology, Radiology, Pathology" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Wadekar Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Vazirabad,Nanded
+        Speciality:Cardiology, Gynaecology, Urology" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Apeksha Critcal Care Centre"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Shivajinagar,Nanded
+        Speciality:Gynaecology, Radiology, Pathology" />
+    
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Ashwini Hospital and Ramakant Heart Care"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Shivajinagar,Nanded
+        Speciality:Gynaecology, Radiology, Pathology" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Asha Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Vazirabad,Nanded
+        Speciality:Gynaecology, General Medicine" />
+    
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Kabre Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Vazirabad,Nanded
+        Speciality:General Surgeon, Appendix, Asthma" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="More Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Shivajinagar,Nanded
+        Speciality:General Surgeon, Diabetes" />
+<TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffb6c1"
+        android:gravity="center"
+        
+        android:text="Aadhar Hospital"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="left"
+        android:text="Address:Shivajinagar,Nanded
+        Speciality:Plastic Surgery" />
+    
+    
+          
+          
+       </LinearLayout>
+ </ScrollView>
+         
+    
+    
+   
+</LinearLayout>

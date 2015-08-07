@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="30dp"
+          android:orientation="vertical">
+         <TextView
+              android:id="@+id/textView2"
+              android:layout_width="320dp"
+              android:layout_height="wrap_content"
+              android:background="#c0c0c0"
+              android:gravity="center"
+              android:text="SGGS AIRPORT"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#ff0000" />
+         
+        </RelativeLayout>
+    
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+          
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="215dp"
+         android:layout_marginTop="10dp"
+       
+        android:src="@drawable/airn" />
+          
+
+               <TextView
+              android:id="@+id/textView2"
+              android:layout_width="320dp"
+              android:layout_height="wrap_content"
+              android:background="#c0c0c0"
+              android:gravity="center"
+              android:text="Nanded Flight Schedule"
+              android:typeface="serif"
+              android:textAppearance="?android:attr/textAppearanceLarge"
+              android:textColor="#ff0000" />
+          <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+         
+       
+        android:src="@drawable/airsch" />
+</LinearLayout>
+</ScrollView>
+</LinearLayout>

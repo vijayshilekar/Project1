@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     >
+    
+    
+     <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="60dp"
+          android:orientation="vertical">
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+         android:background="@drawable/butback"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+       
+        android:text="POST OFFICES" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hom" />
+</RelativeLayout>
+ <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+
+                    
+           <TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="Post Office: Millgate Nanded"
+              
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Post Office Type: Sub Office
+              District: Nanded
+              State: Maharashtra
+ 			  PinCode: 431601
+ 			  Contact Address: Postmaster, Post Office 
+ 			  Millgate Nanded, Nanded"
+               
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Post Office: Nanded"
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Post Office Type: Head Office
+              District: Nanded
+              State: Maharashtra
+              PinCode: 431601
+              Contact Address: Postmaster, Post Office 
+              Nanded"
+              
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Post Office: Nanded Town"
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Post Office Type: Sub Office
+              District: Nanded
+              State: Maharashtra
+              PinCode: 431601
+              Contact Address: Postmaster, Post Office
+              Nanded Town, Nanded, Maharashtra"
+              
+              />
+<TextView
+              android:id="@+id/textView3"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="#ffb6c1"
+              android:gravity="center"
+              android:layout_marginTop="5dp"
+              android:text="Post Office: Sachkhand Nanded"
+              android:textAppearance="?android:attr/textAppearanceMedium" />
+
+          <TextView
+              android:id="@+id/textView1"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:gravity="left"
+              android:text="Post Office Type: Sub Office
+              District: Nanded
+              State: Maharashtra
+              PinCode: 431601
+              Contact Address: Postmaster, Post Office Sachkhand Nanded"
+
+
+              
+              />
+          
+          
+     </LinearLayout>
+     </ScrollView>
+</LinearLayout>

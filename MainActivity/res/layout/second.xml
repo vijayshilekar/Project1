@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    
+    android:orientation="vertical"
+    >
+ <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="60dp"
+          android:orientation="vertical">
+
+           <Button
+               android:id="@+id/button2"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentLeft="true"
+               android:layout_alignParentRight="true"
+               android:layout_alignParentTop="true"
+                android:background="@drawable/butback"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+       
+               android:text="GOVERNMENTS" />
+
+            <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hom" />
+           
+         
+    </RelativeLayout>
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+
+          <Button
+              android:id="@+id/button1"
+              android:layout_width="match_parent"
+              android:layout_height="90dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentRight="true"
+              android:layout_marginTop="10dp"
+              android:layout_weight="0.81"
+              android:gravity="center"
+              android:background="#008080"
+              android:drawableLeft="@drawable/govimg"
+              android:text="@string/offices"
+              android:textColor="#ffffff" />
+
+          <Button
+              android:id="@+id/button3"
+              android:layout_width="match_parent"
+              android:layout_height="90dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/button1"
+              android:layout_weight="0.81"
+              android:gravity="center"
+              android:background="#008080"
+              android:drawableLeft="@drawable/higheduimg"
+                  android:layout_marginTop="5dp"
+              android:text="@string/collname5"
+              android:textColor="#ffffff" />
+
+          <Button
+              android:id="@+id/button4"
+              android:layout_width="match_parent"
+              android:layout_height="90dp"
+              android:layout_alignParentLeft="true"
+              android:layout_alignParentRight="true"
+              android:layout_below="@+id/button3"
+              android:background="#008080"
+              android:drawableLeft="@drawable/mediimg"
+                  android:layout_marginTop="5dp"
+              android:layout_weight="0.81"
+              android:gravity="center"
+              android:text="@string/collname6"
+              android:textColor="#ffffff" />
+
+      </LinearLayout>
+
+   </ScrollView>
+</LinearLayout>

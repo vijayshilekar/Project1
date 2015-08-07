@@ -1,0 +1,37 @@
+<resources>
+
+    <string name="app_name">Nanded Diary</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="a">Government</string>
+    <string name="b">wel-come to second page</string>
+    <string name="education">Education</string>
+    <string name="n">Edu</string>
+    <string name="map">Map</string>
+    <string name="welcome">Wel-Come To Nanded City Of Gurudwara</string>
+    <string name="hospital">Hospitals</string>
+    <string name="tourism">Tourism</string>
+    <string name="travel">Travel</string>
+    <string name="prev"> a </string>
+    <string name="gov">Gov</string>
+    <string name="entertainment">Entment</string>
+    <string name="Entert">Entertainment</string>
+    <string name="edit">Entertainment</string>
+    <string name="bank">Banks</string>
+    <string name="police">Police St</string>
+    <string name="restaurant">Restrent</string>
+    <string name="atm">ATMs</string>
+    <string name="polices">Police Stations</string>
+    <string name="rest">Restaurant</string>
+    <string name="exit">Exit</string>
+    <string name="collname">SCHOOLS </string>
+    <string name="collname2">HIGHER EDUCATION </string>
+    <string name="collname3">MEDICAL INSTITUTES </string>
+    <string name="collname4">TECHNICAL AND OTHER HIGHER EDUCATION </string>
+    <string name="offices">GOV OFFICES </string>
+    <string name="collname5">GOV EDUCATION </string>
+    <string name="collname6">GOV MEDICALS </string>
+    <string name="post">Post off</string>
+    <string name="srtlink"><a href='WWW.srtmun.ac.in'>WWW.srtmun.ac.in</a></string>
+    
+    </resources>

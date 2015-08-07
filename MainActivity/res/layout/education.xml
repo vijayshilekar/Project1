@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@string/prev"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    
+      <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="60dp"
+          android:orientation="vertical">
+    
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+    
+         android:background="@drawable/butback"
+        android:textSize="20dp"
+        android:textColor="#ff0000"
+       
+        android:text="EDUCATIONS" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@drawable/hom" />
+</RelativeLayout>
+    <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <LinearLayout
+          android:layout_width="fill_parent"
+          android:layout_height="109dp"
+          android:orientation="vertical" >
+
+          <Button
+              android:id="@+id/button1"
+              android:layout_width="match_parent"
+              android:layout_height="90dp"
+              android:gravity="center"
+              android:layout_marginTop="10dp"
+              android:text="@string/collname"
+              android:background="#008080"
+              android:drawableLeft="@drawable/schoolimg"
+              android:textColor="#ffffff" />
+
+     <Button
+         android:id="@+id/button3"
+         android:layout_width="match_parent"
+         android:layout_height="90dp"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentRight="true"
+         android:layout_below="@+id/button1"
+         android:gravity="center"
+         android:background="#008080"
+         android:drawableLeft="@drawable/higheduimg"
+             android:layout_marginTop="5dp"
+          android:text="@string/collname2"
+         android:textColor="#ffffff" />
+
+      <Button
+          android:id="@+id/button4"
+          android:layout_width="match_parent"
+          android:layout_height="90dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/button3"
+          android:gravity="center"
+          android:text="@string/collname3"
+              android:layout_marginTop="5dp"
+          android:background="#008080"
+          android:drawableLeft="@drawable/mediimg"
+          android:textColor="#ffffff" />
+
+      <Button
+          android:id="@+id/button2"
+          android:layout_width="wrap_content"
+          android:layout_height="90dp"
+          android:layout_alignParentLeft="true"
+          android:layout_alignParentRight="true"
+          android:layout_below="@+id/button4"
+          android:gravity="center"
+              android:layout_marginTop="5dp"
+          android:background="#008080"
+          android:drawableLeft="@drawable/techimg"
+          android:textColor="#ffffff"
+          android:text="@string/collname4" />
+
+<Button
+    android:id="@+id/button6"
+    android:layout_width="match_parent"
+    android:layout_height="88dp"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentRight="true"
+    android:layout_below="@+id/button4"
+    android:layout_marginTop="5dp"
+    android:background="#008080"
+    android:drawableLeft="@drawable/srt"
+    android:gravity="center"
+    android:text="SRTMU NANDED"
+    android:textColor="#ffffff" />
+  
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+     
+   

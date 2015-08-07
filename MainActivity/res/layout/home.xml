@@ -1,0 +1,228 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/u3"
+    tools:context=".MainActivity" >
+        
+   <RelativeLayout android:layout_width="fill_parent"
+          android:layout_height="fill_parent"
+          android:orientation="vertical">
+      
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:layout_marginBottom="50dp"
+        android:textColor="#ff0000"
+        
+        
+        android:text="@string/welcome"
+        android:focusable="true"  
+		android:focusableInTouchMode="true"  
+		android:singleLine="true"  
+		android:ellipsize="marquee"  
+		android:marqueeRepeatLimit="marquee_forever"  
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </RelativeLayout>
+    
+ <ScrollView
+                      android:layout_width="fill_parent"
+                      android:layout_height="fill_parent" >
+
+      <RelativeLayout
+          android:layout_width="fill_parent"
+          android:layout_height="494dp"
+          android:orientation="vertical" >
+    
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignBaseline="@+id/button2"
+        android:layout_alignBottom="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/gov"
+        android:text="@string/gov"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignBaseline="@+id/button3"
+        android:layout_alignBottom="@+id/button3"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/edu"
+        android:text="@string/education"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignBaseline="@+id/button8"
+        android:layout_alignBottom="@+id/button8"
+        android:layout_alignLeft="@+id/button12"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/p"
+        android:text="@string/police"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_above="@+id/button10"
+        android:layout_alignLeft="@+id/button2"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/bank"
+        android:text="@string/bank"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/enterta"
+        android:text="@string/entertainment"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/button7"
+        android:layout_below="@+id/button7"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/rest"
+        android:text="@string/restaurant"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="14dp"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/hospital"
+        android:text="@string/hospital"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignBaseline="@+id/button4"
+        android:layout_alignBottom="@+id/button4"
+        android:layout_alignLeft="@+id/button2"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/tourism"
+        android:text="@string/tourism"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignBaseline="@+id/button5"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignLeft="@+id/button1"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/travel"
+        android:text="@string/travel"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="58dp"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/map"
+        android:text="@string/map"
+        android:textAlignment="center"
+        android:textColor="#ffffff" />
+<Button
+        android:id="@+id/button14"
+        android:layout_width="85dp"
+        android:layout_height="65dp"
+        android:layout_alignBaseline="@+id/button10"
+        android:layout_alignBottom="@+id/button10"
+        android:layout_alignLeft="@+id/button8"
+        android:background="@drawable/button"
+        android:drawableTop="@drawable/atm"
+        android:text="@string/atm"
+        android:textColor="#ffffff" />
+
+<Button
+    android:id="@+id/button11"
+    android:layout_width="85dp"
+    android:layout_height="65dp"
+    android:layout_alignBaseline="@+id/button13"
+    android:layout_alignBottom="@+id/button13"
+    android:layout_alignLeft="@+id/button8"
+    android:background="@drawable/button"
+    android:drawableTop="@drawable/bar1"
+    android:text="Bars"
+    android:textColor="#ffffff" />
+<Button
+    android:id="@+id/button15"
+    android:layout_width="85dp"
+    android:layout_height="65dp"
+    android:layout_above="@+id/button13"
+    android:layout_alignLeft="@+id/button6"
+    android:background="@drawable/button"
+    android:drawableTop="@drawable/postimg1"
+    android:text="@string/post"
+    android:textColor="#ffffff" />
+
+<Button
+    android:id="@+id/button12"
+    android:layout_width="85dp"
+    android:layout_height="65dp"
+    android:layout_alignBaseline="@+id/button11"
+    android:layout_alignBottom="@+id/button11"
+    android:layout_alignLeft="@+id/button15"
+    android:background="@drawable/button"
+    android:drawableTop="@drawable/c"
+    android:text="Gas st"
+    android:textColor="#ffffff" />
+
+<Button
+    android:id="@+id/button13"
+    android:layout_width="85dp"
+    android:layout_height="65dp"
+    android:layout_alignLeft="@+id/button10"
+    android:layout_below="@+id/button10"
+    android:layout_marginTop="15dp"
+    android:background="@drawable/button"
+    android:drawableTop="@drawable/cafe2"
+    android:text="CAFES"
+    android:textColor="#ffffff" />
+
+       </RelativeLayout>
+   </ScrollView>
+</RelativeLayout>
