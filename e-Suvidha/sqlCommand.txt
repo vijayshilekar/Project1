@@ -1,0 +1,14 @@
+ create table UserDetail(FirstName varchar(20),LastName varchar(20),
+ DOB varchar(10),AccType varchar(20),Gender varchar(20),UserID varchar(20),
+ Password varchar(20));
+
+
+create table Affidavit(Apptyp varchar2(50),Affn number(10),AName varchar2(50),Age number(10),Gender varchar2(10),Address varchar2(50),Vileg varchar2(20),Taluka varchar2(25),jilha varchar(25),PhotoUrl varchar2(200));
+ <jsp:forward page="Affidavit3.jsp"/>
+   <%
+
+
+%>
+
+
+create table incomapfil(tokan number,Apptyp varchar2(50),year number,nirnay varchar2(20),affno number,AName varchar2(50),Adate varchar2(30),rdate varchar2(30),incom number,dist varchar2(20),taluka varchar2(20));

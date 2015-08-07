@@ -1,0 +1,32 @@
+<script> 
+	
+    function validate()
+{
+if(document.Affidavit.Appliname.value=="")
+{
+alert("please Enter name");
+
+return false;
+}
+if(document.Affidavit.age.value=="")
+{
+alert("Please Enter your age");
+return false;
+}
+if(document.Affidavit.gender.value=="")
+{
+alert("Please Enter your Gender");
+return false;
+}
+if(document.Affidavit.addr.value=="")
+{
+alert("Please Enter your Address");
+return false;
+}
+if(document.Affidavit.vileg.value=="")
+{
+alert("Please Enter your villege name");
+return false;
+}
+}
+</script>

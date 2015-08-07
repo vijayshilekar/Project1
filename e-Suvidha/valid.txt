@@ -1,0 +1,14 @@
+else if(document.Login.text.value=="ivajaya" && document.Login.password.value=="123")
+{
+  window.location.assign("Homepage.html")
+}
+
+else if(document.Login.text.value=="ihrajaI" && document.Login.password.value=="hira")
+{
+  window.location.assign("Homepage.html")
+  
+}
+else if(document.Login.text.value=="Baagavat" && document.Login.password.value=="mun")
+{
+  window.location.assign("homepage.html")
+}

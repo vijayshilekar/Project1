@@ -1,0 +1,57 @@
+<html>
+<head> <title> Change Password</title></head>
+
+<style>
+#input_box{background-color:#eeeeee;}
+body
+{
+background-image:url('setu1.png');
+
+}
+</style>
+
+<form name="form" action="loginchange.jsp" onSubmit="return validate()">
+<br><br>        <table border="0" width="60%" align="center"> 
+<tr>
+<td><font face="Shivaji01"><h3>jaunaa PaasavaD-  </h3></font></td>
+<td>:</td>
+<td><input type="password" name="t1" size="30" id="input_box" ></td>
+</tr>
+<tr>
+<td><font face="Shivaji01"><h3>naivana PaasavaD-  </h3></font></td>
+<td>:</td>
+<td><input type="password" name="t2" size="30" id="input_box"></td>
+</tr>
+<tr>
+<td><font face="Shivaji01"><h3> PaasavaD-caI Ka~I kra  </h3></font></td>
+<td>:</td>
+<td><input type="password" name="t3" size="30" id="input_box"></td>
+</tr>
+<tr>
+<td colspan="3" align="center"><br><input type="submit" name="b1" value="CHANGE"</td>
+</tr>
+</table>
+</form>
+</body>
+<script> 
+	
+    function validate()
+{
+if(document.form.t1.value=="")
+{
+alert("please Enter Old Password");
+return false;
+}
+if(document.form.t2.value=="")
+{
+alert("please Enter New Password");
+return false;
+}
+if(document.form.t3.value=="")
+{
+alert("please Enter Comform Password");
+return false;
+}
+}
+</script>
+</html>

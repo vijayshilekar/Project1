@@ -1,0 +1,71 @@
+<%@page import="java.sql.*"%>
+<%
+String a1,a2,a3,a4,a5,a6;
+
+
+HttpSession hs=request.getSession();
+if(hs.getAttribute("caffno")!=null && hs.getAttribute("cname")!=null && hs.getAttribute("cage")!=null && hs.getAttribute("cadd")!=null && hs.getAttribute("cvileg")!=null && hs.getAttribute("cfileurl")!=null)
+{
+a1=hs.getAttribute("caffno").toString();
+a2=hs.getAttribute("cname").toString();
+a3=hs.getAttribute("cage").toString();
+a4=hs.getAttribute("cadd").toString();
+a5=hs.getAttribute("cvileg").toString();
+a6=hs.getAttribute("cfileurl").toString();
+
+session.setAttribute("caffno",a1);
+session.setAttribute("cname",a2);
+session.setAttribute("cage",a3);                                                  
+session.setAttribute("cadd",a4);
+session.setAttribute("cvileg",a5);
+session.setAttribute("cfileurl",a6);
+}
+
+%>
+
+<html>
+<head>
+<title></title>
+<body>
+
+<%@ page import="java.sql.*" %>
+<%
+HttpSession hss=request.getSession();
+if(hss.getAttribute("cfileurl")!=null)
+{
+String fileurl=hss.getAttribute("cfileurl").toString();
+
+
+int file=fileurl.lastIndexOf("\\");
+String dirname=fileurl.substring(0,file);
+String filename=fileurl.substring(file+1);
+String b3="UploadPhotos/"+filename;
+
+out.println("<img src='"+b3+"' width=100 align= right></img><br><br><br><br><br>");
+//}
+out.println("</table>");
+}
+%>
+
+<br><br><br><br>
+
+
+<font face="Shivaji01" size ="5"> ivaYaya :  [-tr maagaasavaga- ikMvaa ivaSaoYa maagaasap`vaga- jaatI p`maaNap~ imaLNyaasaazI saxama p`QaIkayaa-kaDo
+    Ajaa-saaobat namaunaa 1 saadr kravayaacao Sapqap~jaatIcao p`maanap~ imaLNao baabat<br>
+    Sapqap~ k`maaMk :<%=session.getAttribute("caffno")%>
+<br>maI <%=session.getAttribute("cname")%> yaaMcaa maulagaa ikMvaa yaaMcaI maulagaI vaya <%=session.getAttribute("cage")%> vaYa-o vyavasaaya
+ iSaxaNa mau.  <%=session.getAttribute("cvileg")%>  gaava Sahr <%=session.getAttribute("cvileg")%> thisala
+<%=session.getAttribute("cvileg")%> ijalha  <%=session.getAttribute("cadd")%>,
+ rajya maharaYT/ yaoqaIla rihvaasaI Asauna  yaavdaro d`Zpuva-k kqana krtao ik, maI <%=session.getAttribute("cvileg")%> ijalha  <%=session.getAttribute("cadd")%> 
+ rajya maharaYT  yaoqaIla rihvaasaI Asauna  yaavdaro d`Zpuva-k kqana krtao ik, maI <%=session.getAttribute("cname")%> yaa jaaitcaa  jamaatIcaa Asauna ih jat 
+Anausauicat jaatI
+ baaOQd Qamaa-tirt   Anausauicat jaatI ivamaukt jaatI BaTkyaa jamaatI  
+[-tr maagaasavaga- ivaSaoYa maagaasavaga- ivaSaoYa maagaasap`vaga- mhNauna AaoLKlaI jaato.
+maaJyaa maaihtIp`maaNao AaiNa samajauitp`maanao Ajaa-t namaunaa 1 va yaa Saptp~at idlaolaI maaihtI ih 
+KrI va Acauk Aaho.  </font>
+</body>
+
+</head>
+</html>
+
+

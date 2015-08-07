@@ -1,0 +1,61 @@
+<html>
+<title>Login </title>
+<head>
+<script>
+function validate()
+{
+
+if(document.Login.text.value=="")
+{
+alert("please Enter user name");
+return false;
+}
+else if(document.Login.password.value=="")
+{
+alert("please Enter password");
+return false;
+}
+}
+</script>
+
+</head>
+<body bgcolor="pink">
+<center>
+<form name="Login" action=" login.jsp"   method="post">
+
+<marquee align="top" loop="infinite" behavior="alternate" bgcolor="orange"  direction="right">
+ <h1 align=center >Wel-come to e-Suvidha<h1>
+          </marquee>
+<table>
+<tr>
+<td>
+<font face="Shivaji01"><h3>yaujarcao naava</h3></font>
+</td>
+<td>
+<input type="text"style="font-family:Shivaji01;font-size:20px" Name="text" size=20>
+</td>
+</tr>
+<tr>
+<td>
+<font face="Shivaji01"><h3>PaasavaD-  </h3></font>
+</td>
+<td><input type="password" Name="password" size=20>
+</td>
+</tr>
+<tr><td></td>
+<td>
+<input type="submit"value="sign in" onClick="return validate()">
+<input type="reset"value="cancel">
+</td></td>
+<table>
+</form>
+
+<br><br>
+<h1><strong>Invalid UserName And Password</strong></h1>
+
+</center	>
+</body>				
+</html>
+
+
+
